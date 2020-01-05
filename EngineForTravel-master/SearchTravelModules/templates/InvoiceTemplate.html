@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Faktura Szablon</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="InvoiceStyle.css">
+	</head>
+	<body>
+		<div id='A4'>
+			<div id='topInfo'>
+				<div class='left'>
+					<div id='logo'>
+
+					</div>
+
+					<div id='companyInfo'>
+						<p>Nazwa Firmy</p>
+						<p>Adres</p>
+						<p>Telefon, NIP</p>
+						<p>Oddział Bankowy</p>
+						<p>Nr konta bankowego</p>
+					</div>
+				</div>
+
+				<div class='right'>
+					<div id="topData">
+						<div id='place'>
+							<div class='top'>Miejsce wystawienia:</div>
+							<p>Miejsce</p>
+						</div>
+
+						<div id='date'>
+							<div class='top'>Data sprzedaży:</div>
+							<p>Data</p>
+						</div>
+
+						<div id='exposure'>
+							<div class='top'>Data wystawienia:</div>
+							<p>Data</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id='seller-buyer'>
+				<div class='left'>
+					<div id='seller'>
+						<div class='top'>Sprzedawca:</div>
+						<p>Sprzedawca</p>
+					</div>						
+				</div>
+
+				<div class='right'>
+					<div id='buyer'>
+						<div class='top'>Nabywca:</div>
+						<p>Dane Nabywcy</p>
+					</div>
+
+					<div id='receiver'>
+						<div class='top'>Odbiorca:</div>
+						<p>Dane Odbiorcy</p>
+					</div>					
+				</div>
+			</div>
+			
+			<div id='ContentTable'>
+				<div class='center'>
+					<div id='invoiceHeader'>Faktura VAT NR/DATA</div>
+					<div id='itemTable'>
+						<table>
+							<tr>
+								<th>Lp</th>
+								<th>Nazwa</th>
+								<th>Ilość</th>
+								<th>j.m</th>
+								<th>Cena brutto</th>
+								<th>VAT</th>
+								<th>Wartość netto</th>
+								<th>VAT</th>
+								<th>Wartość brutto</th>
+							</tr>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>	
+							</tr>
+						</table>
+					</div>
+				</div>
+
+				<div id='SumContener'>
+					<div class='right'>
+						<div id='sum'>
+							<table>
+								<tr>
+									<th>według stawki VAT</th>
+									<th>wartość netto</th>
+									<th>kwota VAT</th>
+									<th>wartość brutto</th>
+								</tr>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</table>	
+						</div>
+
+						<div id='sum2'>
+							<div class='top' style="text-align: left;">
+								<strong>Razem do zapłaty:</strong>
+								<p style="float: right !important;">KWOTA</p>
+							</div>
+							
+							<p style="margin-right: 10px; margin-bottom: 20px;">
+								<strong>Słownie:</strong>
+							</p> KWOTA	
+						</div>
+					</div>		
+				</div>
+
+				<div id='payMethod'>
+					<strong><p>Pozostało do zapłaty: KWOTA</p></strong>
+					<strong><p>Gotówka/Przelew</p></strong>
+				</div>
+
+			</div>
+
+			<div id='end'>
+				<div class='left'>
+					<div id='sellerEnd'>
+						<p class="top"><strong>Wystawił(a):</strong></p>
+					</div>
+					<p class="info">Podpis osoby upoważnionej do wystawienia faktury VAT</p>
+				</div>
+
+				<div class='right'>
+					<div id='pickedup'>
+						<p class="top"><strong>Odebrał(a):</strong></p>
+					</div>
+					<p class="info" style="float: inherit!important;">Podpis osoby upoważnionej do odbioru faktury VAT</p>
+				</div>				
+			</div>
+
+		</div>
+	</body>
+</html>

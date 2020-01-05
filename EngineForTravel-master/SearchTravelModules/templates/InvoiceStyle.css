@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+th, td {
+	border: solid 1px black; 	
+}
+
+th {
+	background-color: gray;
+}
+
+table {
+	border-collapse: collapse;
+	border: solid 1px black; 
+	width: 100%;
+}
+
+#A4 {
+	size: a4 landscape;
+}
+
+#topInfo {
+	width: 100%;
+	height: 180px;
+}
+
+#logo {
+	height: 80px;
+}
+
+#place, #date, #exposure {
+	width: 200px;
+}
+
+
+#seller-buyer {
+	width: 100%;
+	height: 250px;
+}
+
+#seller, #buyer, #receiver {
+	width: 300px;
+	height: 120px;
+}
+
+#seller {
+	height: 241px;
+}
+
+#seller, #receiver, #exposure {
+	border-bottom: solid 1px black; 
+}
+
+#ContentTable {
+	width: 100%;
+}
+
+#invoiceHeader {
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+#sum {
+	width: 80%;
+	margin-top: 20px;
+}
+
+#SumContener {
+	height: 150px;
+}
+
+#sum table * {
+	clear: none;
+	float: none;
+}
+
+#sum2 {
+	width: 80%;
+	margin-top: 20px;
+	border-bottom: solid 1px black;
+}
+
+#end {
+	width: 100%;
+	height: 213px;
+}
+
+#sellerEnd, #pickedup {
+	margin-top: 10px;
+	border: solid 1px black;
+	width: 50%;
+	height: 150px;
+}
+
+.p {
+	margin: 0;
+}
+
+
+.left {
+	float: left;
+	width: 50%
+}
+
+.right {
+	float: right;
+	width: 50%;
+}
+
+.right .top, .right div, .right .info {
+	float: right;
+	clear: both;
+}
+
+
+.top {
+	width: 100%;
+	background-color: gray;
+	text-align: center;
+	border-top: solid 1px black;
+}
+
+.right p {
+	float: left !important;
+}
+
+.info {
+	font-size: 12px;
+	text-align: center;
+	width: 50%;
+}
